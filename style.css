@@ -1,0 +1,103 @@
+.root {
+
+	-fx-background-color: linear-gradient(#F8F8F8, #D8D8D8, #D8D8D8);
+	-fx-font-family: Helvtica, Sans Serif, Ariel;
+	-fx-font-size: 14;
+	
+}
+
+.label {
+
+	-fx-font-size: 15;
+	-fx-text-fill: #000000;
+
+}
+
+.text-field {
+
+	-fx-font-size: 15;
+	-fx-background-radius: 20;
+	-fx-border-radius: 20;
+
+}
+
+.vbox {
+
+	-fx-background-color: #000000;
+
+}
+
+/*-- Custom CSS --*/
+
+#welcomeLabel {
+
+	-fx-font-size: 50;
+	-fx-text-fill: #7CAFC2;
+	
+}
+
+#errorLabel {
+
+	-fx-text-fill: #AB4642;
+	-fx-font-size: 12;
+
+}
+
+.link {
+	
+	-fx-font-size: 12;
+	-fx-text-fill: #7CAFC2;
+
+}
+
+.button-login {
+
+	-fx-background-color: linear-gradient(#B8B8B8, #E8E8E8, #F8F8F8);
+	-fx-border-color: #F8F8F8;
+
+}
+
+.button-login: hover {
+
+	-fx-background-color: linear-gradient(#F8F8F8, #E8E8E8, #B8B8B8);
+
+}
+
+.button-logout {
+
+	-fx-background-color: #59bcd9;
+	-fx-border-color: #86C1B9;
+	-fx-font-size: 13;
+
+}
+
+.button-logout: hover {
+
+	-fx-background-color: #86C1B9;
+
+}
+
+.button-config {
+
+	-fx-background-color: linear-gradient(#B8B8B8, #E8E8E8, #F8F8F8);
+	-fx-border-color: #F8F8F8;
+
+}
+
+.button-config: hover {
+
+	-fx-background-color: linear-gradient(#F8F8F8, #E8E8E8, #B8B8B8);
+
+}
+
+.button-search {
+
+	-fx-background-radius: 20;
+	-fx-background-image: url("file:resources/images/search.png");
+	-fx-background-size: 25 25;
+	-fx-background-repeat: no-repeat no-repeat;
+	-fx-background-position: center;
+	-fx-background-color: #F8F8F8;
+	-fx-font-size: 10;
+
+}

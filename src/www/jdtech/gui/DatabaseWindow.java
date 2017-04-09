@@ -93,6 +93,8 @@ public class DatabaseWindow {
 		// Search Button
 		Button searchButton = new Button("   ");
 		searchButton.getStyleClass().add("button-search");
+		// Make the button usable by the keyboard enter key
+		searchButton.setDefaultButton(true);
 		searchButton.setOnAction(e -> {
 			
 			if(!searchField.getText().contentEquals("")) {

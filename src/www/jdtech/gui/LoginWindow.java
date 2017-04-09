@@ -73,6 +73,7 @@ public class LoginWindow {
 		loginButton.getStyleClass().add("button-login");
 		// Make the button usable by a keyboard
 		loginButton.defaultButtonProperty().bind(loginButton.focusedProperty());
+//		loginButton.setDefaultButton(true);
 		loginButton.setOnAction(e -> {
 			String username = "1";
 			String password = "1234";
